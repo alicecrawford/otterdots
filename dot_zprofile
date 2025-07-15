@@ -1,0 +1,3 @@
+for f in $HOME/.zprofile.d/*; do
+  . "$f"
+done
